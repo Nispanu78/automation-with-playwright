@@ -13,7 +13,7 @@ cd automation-with-playwright
 npm init -y
 5. Install Playwright:
 npm init playwright@latest
-During setup: Choose TypeScript, accept default test folder, add GitHub Actions workflow: Yes/No (optional), install Playwright browsers: Yes
+During setup: choose TypeScript, accept default test folder, add GitHub Actions workflow: Yes/No (optional), install Playwright browsers: Yes
 6. Install additional dependencies:
 npm install @faker-js/faker --save-dev
 npm install dotenv --save-dev
