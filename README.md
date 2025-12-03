@@ -15,10 +15,10 @@ npm init -y
 npm init playwright@latest
 During setup:
 
-Choose TypeScript
-Accept default test folder
-Add GitHub Actions workflow: Yes/No (optional)
-Install Playwright browsers: Yes
+5a. Choose TypeScript
+5b Accept default test folder
+5c. Add GitHub Actions workflow: Yes/No (optional)
+5d. Install Playwright browsers: Yes
 6. Install additional dependencies:
 npm install @faker-js/faker --save-dev
 npm install dotenv --save-dev
