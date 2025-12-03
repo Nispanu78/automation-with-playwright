@@ -1,0 +1,16 @@
+
+{
+  "baseURL": "https://automationexercise.com",
+  "timeout": 30000,
+  "headless": false,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "testCard": {
+    "number": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2027"
+  }
+}
