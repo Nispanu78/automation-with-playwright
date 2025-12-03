@@ -26,39 +26,3 @@ npx playwright test tests/e2e-user-journey.spec.ts
 npx playwright show-report
 10. To debug, use 
 npx playwright test --debug
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4. For Linux run the following commands
-4a. Update the system
-sudo apt update && sudo apt upgrade -y
-4b Install dependencies
-sudo apt install -y libnss3 libatk-bridge2.0-0 libxkbcommon-x11-0 libgbm-dev
-4c. Install playwright 
-npm install playwright
-4d. Install browsers
-npx playwright install
-4e. Verify installation with the following script:
-echo "const { chromium } = require('playwright'); (async () => { const browser = await chromium.launch(); const page = await browser.newPage(); await page.goto('https://example.com'); console.log(await page.title()); await browser.close(); })();" > test.js
-node test.js
-5. Features of the application are tested in Chrome version 131.0.6778.265
-6. Run all tests with the following command:
-npx playwright test --project=chromium
-7. Run a single test with the following command:
-npx playwright test tests/test5.spec.ts --project=chromium
-8. Open Playwright report (traceviewer is set as "on") with the following command:
-npx playwright show-report
-9. To debug, use 
-npx playwright test --debug
